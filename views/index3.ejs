@@ -1,0 +1,1132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="bootstrap\bootstrap-3.4.1-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fondamento|Lemonada|Noto+Sans|PT+Serif|Tomorrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/events.css">
+    <script src="bootstrap\bootstrap-3.4.1-dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">\
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Student say links done-->
+ 
+    <style>
+      * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(260deg, #d44e3c 0%, #e9cc4c 100%);
+  }
+  
+  .navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #2376ae 0%, #660477 100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    margin-top: -20px;
+  }
+  
+  .main-nav {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .nav-links,
+  .logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-toggle {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(248, 246, 246, 0.8);
+    font-size: 24px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+  
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+  
+    .main-nav li {
+        margin: 0;
+    }
+  
+    .nav-links {
+        margin-left: 40px;
+    }
+  
+    .logo {
+        margin-top: 0;
+    }
+  
+    .navbar-toggle {
+        display: none;
+    }
+  
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+  }
+#con1{
+   
+        clip-path: polygon(0 100%, 0 0%, 100% 0, 100% 80%);
+        background: linear-gradient(to right, rgba(46, 44, 51, 0), rgb(92, 84, 109)),url('/images/header.jpg');
+        width: 100%;
+        height: 320px;
+        background-size: 100%;
+       
+        
+}
+header{
+    width: 100%;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+#h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(249, 248, 250);
+}
+#h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(220, 209, 236);
+}
+#hh1{
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+#con3{
+    background-image: linear-gradient(260deg, #2376ae 0%, #660477 100%);
+    width: 100%;
+    padding-bottom: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#hh2{
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+}
+h3{
+  font-size: 50px;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+  
+/*Alumini css*/
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #1d1c1c;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: rgb(1, 12, 75);
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+/*student say*/
+.testimonial{
+    background: #fff;
+    text-align: center;
+    padding: 30px 30px 50px;
+    margin: 0 15px 100px;
+    position: relative;
+    margin-top: 168px;
+}
+.testimonial:before,
+.testimonial:after{
+    content: "";
+    border-top: 40px solid #fff;
+    border-right: 125px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+.testimonial:after{
+    border-right: none;
+    border-left: 125px solid transparent;
+    left: auto;
+    right: 0;
+}
+.testimonial .icon{
+    display: inline-block;
+    font-size: 80px;
+    color: #bd986b;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+.testimonial .description{
+    font-size: 16px;
+    color: #777;
+    text-align: justify;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    letter-spacing: -1px;
+}
+.testimonial .testimonial-content{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.testimonial .pic{
+    display: inline-block;
+    border: 6px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #daad86;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(235, 8, 8);
+    font-family: 'Lemonada', cursive;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #ffd9b8;
+}
+.owl-theme .owl-controls{
+    margin-top: 60px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 32px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #bd986b;
+    margin: 5px;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #ffd9b8;
+    border-color: #fff;
+}
+    .pic img{
+        width: 100px !important;
+        height: 50px;
+    }
+    /*Team CSS*/
+    .btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0; 
+}
+
+section .section-title {
+    text-align: center;
+    color: #f9fcfb;
+    font-family: 'Lemonada', cursive;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+   transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #0b0e0d !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #0f1413 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.card-text{
+    color: black;
+}
+/*events cards*/
+#con4{
+  background: transparent;
+  width: 100%;
+  padding-bottom: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+#btn1{
+  background: transparent;
+  border: 1px soild black;
+  color: white;
+  font-weight: 700;
+}
+#hevents{
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+  color: rgb(12, 3, 3);
+}
+#con5{
+  background: transparent ;
+  width: 100%;
+  padding-bottom: 10px;
+  background-size: 100%;
+  color: white;
+}
+#con5 .card{
+  color: rgb(252, 250, 250);
+  background: rgba(0, 0, 0, 0.6);
+}
+#con5 #hh2{
+  color: black;
+}
+/*intern*/
+#h-intern{
+  text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+    color: white;
+}
+#int1{
+  background-image: url('/images/suneelam.jpeg');
+  background-size: 100%;
+  height: 250px;
+  width: 270px;
+  background-repeat: no-repeat;
+  color: transparent;
+  transition: 1s;
+  border-radius: 22px;
+  user-select: none;
+}
+#int1:hover{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/images/suneelam.jpeg');
+  color: rgb(253, 252, 252);
+}
+#int2{
+  background-image: url('/images/prassanjit\ \(1\).jpeg');
+  background-size: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  height: 250px;
+  width: 250px;
+  color: transparent;
+  transition: 1s;
+  border-radius: 22px;
+  user-select: none;
+}
+#int2:hover{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/images/prassanjit\ \(1\).jpeg');
+  color: rgb(253, 252, 252);
+}
+#int3{
+  background-image: url('/images/prachii.jpeg');
+  background-size: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  height: 250px;
+  width: 250px;
+  color: transparent;
+  transition: 1s;
+  border-radius: 22px;
+  user-select: none;
+}
+#int3:hover{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/images/prachii.jpeg');
+  color: rgb(253, 252, 252);
+}
+#int4{
+  background-image: url('/images/mansii.jpeg');
+  background-size: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  height: 250px;
+  width: 250px;
+  color: transparent;
+  transition: 1s;
+  border-radius: 22px;
+  user-select: none;
+}
+#int4:hover{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/images/mansii.jpeg');
+  color: rgb(253, 252, 252);
+}
+#int5{
+  background-image: url('/images/jaggu.jpeg');
+  background-size: 100%;
+  margin-left: 2px;
+  margin-top: 2px;
+  height: 250px;
+  width: 250px;
+  color: transparent;
+  transition: 1s;
+  border-radius: 22px;
+  user-select: none;
+}
+#int5:hover{
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/images/jaggu.jpeg');
+  color: rgb(253, 252, 252);
+}
+/*intern done*/
+    </style>
+</head>
+<body>
+     <!----navbar -->
+     <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="#" class="logo">Kanishka IT</a>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="/hom" class="nav-links hype" style="color: black;">Home</a>
+        </li>
+        <li>
+            <a href="/events1" class="nav-links">Events</a>
+        </li>   
+        <li>
+            <a href="/career1" class="nav-links">Career</a>
+        </li>
+        <li>
+            <a href="/courses1" class="nav-links">Courses</a>
+        </li>
+        <li>
+        <a href="/quiz" class="nav-links">Quiz</a>
+    </li>
+    <li>
+        <a href="/material1" class="nav-links">Material</a>
+    </li>
+    <li>
+        <a href="/progress1" class="nav-links">Progress</a>
+    </li>
+    
+    <li>
+        <a href="/home" class="nav-links">Logout</a>
+    </li>
+    <li>
+      <a  href="/edit" class="nav-links" style="color:black;text-transform:capitalize;font-size:25px;background-color:white;  border-radius: 80px;padding: 10px; text-decoration: none;"><%=email%></a>
+       
+        </li>
+ 
+    
+        </ul>
+    </nav>
+       <script>
+         let mainNav = document.getElementById('js-menu');
+  let navBarToggle = document.getElementById('js-navbar-toggle');
+  
+  navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+  });
+       </script>
+       <header>
+<div class="container" id="con1">
+  <h2 style="text-align: center;color:white;text-transform:capitalize;">Hey <%=email%></h2>
+    <h1 id="h1">Kanishka IT PVT. LTD.</h1><h2 id="h2">Empowered by Innovation!</h2>
+</div>
+</header>
+<div class="container" id="con2">
+  <div class="row">
+      <div class="col-md-6"><h2 id="hh1">Reason To Join Us</h2><p style="font-family: 'PT Serif', serif;">Since 2006, Kanishka IT Pvt. Ltd. established . It Specialised in Web Application Development, Website Designing, Software Application Development and Mobile Application Development, Corporate Training, Research Centre, Campus Placement Training, Industrial Training . We specialize in cloud computing and our offerings are highly customizable and scalable. We believe in enahncing the skills of students. Every student is different from another so are our state-of-the-art solutions.</p></div>
+      <div class="col-md-6"><img src="images/hand.jpg" style="clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); height: 300px; width: 60%; margin-left: 30px;"></div>
+  </div>
+</div><br>
+<div class="container" id="con3">
+    <h2 id="hh2">Courses</h2>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-android"></icon></h3>
+            <p>Android (with firebase)</p>
+           
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-cloud"></h3>
+            <p>Cloud Computing</p>
+            
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-suitcase"></h3>
+            <p>Full Stack developer</p>
+          
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-map"></h3>
+            <p>Advance Data Structure and Algorithm</p>
+          </div>
+        </div>
+      </div><br>
+      <!--Next row-->
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-simplybuilt"></h3>
+            <p>Placement and Training</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-connectdevelop"></h3>
+            <p>Machine Learning and Data Science</p>
+        
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3><icon class="fa fa-users"></h3>
+            <p>Aptitude and Logical Classes</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3><a href="courses.html" style="color: white; text-decoration: none;"><icon class="fa fa-plus-square-o"></h3></a>
+            <p>Learn More</p>
+          </div>
+        </div>
+</div><br></div><br>
+<!--Alumini container-->
+<div class="wrapper">
+    <h1>Our Alumini</h1>
+    <div class="team">
+      <div class="team_member">
+        <div class="team_img">
+          <img src="images/vaibhav.jpeg" class="img-circle" alt="Team_image">
+        </div>
+        <h3>Vaibhav Dhawan</h3>
+        <p class="role">TATA Consultancy Service</p>
+        <p>I am a student of Amity University of batch 2016-20, Ma'am not only helped me with the major and minor projects, but with a few projects on Java, Android and Kotlin as well. With her guidance i was able to get a job in a well known company named TATA Consultancy Service.</p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="images/romaa.jpg" class="img-circle" alt="Team_image">
+        </div>
+        <h3>Roma Ahuja</h3>
+        <p class="role">Sopra Steria</p>
+        <p>I was the student of Kanishka IT. This institution helped me to enhance my hidden talent. The environment their is very friendly. I am thankful to Geeta Ma'am who helped me in my programming life.</p></div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="images/mohit.jpeg" class="img-circle" alt="Team_image">
+        </div>
+        <h3>Mohit Makhija</h3>
+        <p class="role">Infosys</p>
+        <p>Kanishka IT not only helped me in my study, it actually developed my coding talent. It maxde me so capable that I'm working in a big company.</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="team">
+      <div class="team_member">
+        <div class="team_img">
+          <img src="images/ambita.jpeg" class="img-circle" alt="Team_image">
+        </div>
+        <h3>Ambita Verma</h3>
+        <p class="role">Zytech, Dubai</p>
+        <p>I did many courses and was extremely happy with all the courses. They provide quality content, the support from faculty and mentors was amazing.  Finally I would say that it is a place to develop attitude and skills required at the industry level.</p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="images/isha.jpeg.jpg" class="img-circle" alt="Team_image">
+        </div>
+        <h3>Isha Kulshrestha</h3>
+        <p class="role">Microsoft</p>
+        <p>Amazing experience at Kanishka IT. It was an extremely good atmosphere for learning as the teachers are very nice and sweet and most importantly they teach very well.</p></div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="images/dishant.jpeg" class="img-circle" alt="Team_image">
+        </div>
+        <h3>Dishant Chandewani</h3>
+        <p class="role">Hashedin Technologies</p>
+        <p>I joined the course after knowing that it has helped a lot of students in securing good jobs. The course content was really good. I feel everyone must join as it a place which will the elevate level of your skills, no matter how high it is! .</p>
+      </div>
+    </div>
+  </div><br><br>
+  <!--What students say about us-->
+  <div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-family: 'Allura', cursive; text-align: center;">What students say about us</h1>
+              <div id="testimonial-slider" class="owl-carousel"  style="margin-top: -100px;">
+                    
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            I have been a part of Kanishka IT since last year. Before joining, I was not clear with my programming skills. But here we got the right direction and motivation for the future. Not only coding but also get to know more bout new technologies and proper guidance with all time support. I am glad to be a part of this.<br><br>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/shrishti.jpeg" alt=""></div>
+                            <h3 class="title">Shrishti Pandey</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                          Outstanding opportunity more than just a school The Coaching Institute is so outrageously good. Having joined just over a month ago, it has far surpassed my expectations.<br><br><br><br>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/ankit.jpeg" alt=""></div>
+                            <h3 class="title">Ankit Yadav</h3>
+                           
+                        </div>
+                    </div>
+                       
+                       <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                           kanishka-it guide me how to walk on the right path which leaded to my destination. I realised the importance of technical world after coming here. Teacher, Geeta Mam is very supportive. Moreover it is ultimate.<br><br><br><br>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/dharma.jpeg" alt=""></div>
+                            <h3 class="title">Dharmendra</h3>
+                            
+                        </div>
+                    </div>     
+                       <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Before joining Kanishka IT, I was socially anxious about the programming languages but after joining I coped up with my fear, but there I was made feel welcome straight away. and was given one-on-one support by my wonderful teacher, Geeta Ma'am . Kanishka IT  encourage all students to reach their full potential. <br>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/hartima.jpeg" alt=""></div>
+                            <h3 class="title">HArtima Brijwani</h3>
+                           
+                        </div>
+                    </div>     
+                       <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            I have been a part of kanishaka IT since 3 months. Kanishka IT gave  me a platform to grow and develop my programming skills. It was my best decision to take admission in kanishaka IT.<br><br><br><br>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/swati.jpeg" alt=""></div>
+                            <h3 class="title">Swati</h3>
+                           
+                        </div>
+                    </div>
+                 
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Kaniska it is the good place for beginners. atmosphere  and bheaviour of Geeta mam is very friendly. I am doing full stack developer course, and I m extremely happy with my course. finally I would say that it is a place to devlope attitude and skills required at the industry level .<br><br>
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/jadu.jpeg" alt=""></div>
+                            <h3 class="title">Sachin Kushwaha</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        autoPlay:true
+    });
+});
+     </script>
+     <br>
+     <!--Interns-->    
+    <div class="container-fluid" style="background-color: rgba(0,0,0,0.6);">
+        <h1 id="h-intern">Interns</h1>
+        <div class="row">
+            <div class="col-md-2" id="int1"><h2>Suneelam</h2><p>B.Sc. computer Science<br><br>Data Science</p></div>
+            <div class="col-md-2" id="int4"><h2>Mansi Jain</h2><p>B.Tech. Computer science<br><br>Data Science</p></div>
+            <div class="col-md-2" id="int2"><h2>PrasannJeet Mittal</h2><p>B.E. Information Technology<br><br>Machine Learning</p></div>
+           
+            <div class="col-md-2" id="int5"><h2>Jagrati</h2><p>B.Tech. Computer science<br><br>Full Stack Developer</p></div>
+        </div><br><br>
+    </div><br><br>
+    
+      <!--interns done-->
+     <!--Meat The Team-->
+     <section id="team" class="pb-5" style="background-image: linear-gradient(260deg, #2376ae 0%, #660477 100%);">
+        <div class="container">
+            <h5 class="section-title h1">Who We Are</h5>
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="images/face_4.jpg" alt="card image"></p>
+                                        <h4 class="card-title">MR. HEMANT KAKRANI</h4>
+                                        <p class="card-text">Director</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Mr.Hemant Kakrani</h4>
+                                        <p class="card-text">"Our Success is ascribed to enthusiasm energy in what we do, energy to the business which we cherish, through an exceptionally aggressive, exceedingly prepared workforce."</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/HKakrani?s=08">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+
+                 <!-- Team member -->
+                 <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="cards">
+                                    <div class="card-body text-center">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="images/geeta-k.jpeg" alt="card image"></p>
+                                        <h4 class="card-title">Mrs. Geeta Kakrani</h4>
+                                        <p class="card-text">CEO</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Mrs. Geeta Kakrani</h4>
+                                        <p class="card-text">"We look to enhance in a way that minimizes the gap between our technology and it's needs. For us, advancement is a journey for a working issue that is so far unsaid, or finding that shockingly imaginative approach to execute an answer for a known issue."</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/geeta-kakrani-26058128/">
+                                                    <i class="fa fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/GeetaKakrani">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://github.com/geeta-gwalior">
+                                                    <i class="fa fa-github-square"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ </div></section>
+    <!-- Team Done-->
+    <!--events-->
+    <div class="container" id="con4">
+        <h2 id="hevents">OUR EVENTS</h2>
+        <div class="row">
+            <div class="column">
+              <div class="card" style="background: url('images/iitdelhi.jpg'); background-size: 100%;">
+                <div class="z" style="background: rgba(0,0,0,0.6);"><br>
+                <p style="color: rgb(252, 249, 249); font-weight: 800;">Workshop on C++ and Data Structure</p>
+                <p style="color: rgb(250, 245, 245); font-weight: 800; text-align: center;">3-oct-2019</p>
+                <p style="color: rgb(241, 239, 239); font-weight: 800; text-align: center;">Venue-IIT Delhi</p><br><br></div>
+              </div><br>
+              
+            </div>
+          
+            <div class="column">
+              <div class="card" style="background: url('images/rjit.jpg'); background-size: 100%;">
+                <div class="z" style="background: rgba(0,0,0,0.6);"><br>
+                    <p style="color: rgb(252, 249, 249); font-weight: 800;">Workshop on Dialog Flow</p>
+                    <p style="color: rgb(250, 245, 245); font-weight: 800; text-align: center;">31-JAN-2020</p>
+                    <p style="color: rgb(241, 239, 239); font-weight: 800; text-align: center;">Venue-RJIT Gwalior</p><br><br><br></div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="card" style="background: url('images/iiitm.jpeg'); background-size: 100%;">
+                    <div class="z" style="background: rgba(0,0,0,0.6);"><br>
+                        <p style="color: rgb(252, 249, 249); font-weight: 800;">Workshop on GCP</p>
+                        <p style="color: rgb(250, 245, 245); font-weight: 800; text-align: center;">22-AUG-2019</p>
+                        <p style="color: rgb(241, 239, 239); font-weight: 800; text-align: center;">Venue-ABV IIITM, Gwalior</p><br><br><br></div>
+                  
+                </div>
+              </div>
+              <div class="column">
+                <div class="card" style="background: url('images/water.png'); background-size: 100%;">
+                    <div class="z" style="background: rgba(0,0,0,0.6); color: white;"><br>
+                        <h3><icon class="fa fa-newspaper-o"></h3>
+                        <p>UPCOMING EVENT</p>
+                        <a href="events.html"><button id="btn1">More</button></a>
+                        <br><br></div>
+                  
+                </div>
+              </div>
+
+            
+            </div>
+            
+          </div></div><br><br>
+          <!--Features-->
+          <div class="container" id="con5">
+            <h2 id="hh2">--Features--</h2>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-group" style="color: rgb(248, 248, 250); font-size: 70px;"></icon></h3>
+                    <p>Outstanding Faculty</p>
+                   <p>Our faculty is full of energy and positive attitude which makes them outstanding.</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-smile-o" style="color: rgb(214, 236, 10); font-size: 70px;"></h3>
+                    <p>Help and Support</p>
+                    <p>Students get the best mentor support for full enthusiasm</p>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-code-fork" style="color: rgb(248, 36, 230); font-size: 70px;"></h3>
+                    <p>Competition</p>
+                  <p>We help students to crack different coding competitions.</p>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-building" style="color: rgb(30, 243, 58); font-size: 70px;"></h3>
+                    <p>Placements</p>
+                    <p>We don't place students, we give them that ability to be placed.</p>
+                  </div>
+                </div>
+              </div><br>
+              <!--Next row-->
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-simplybuilt" style="color: rgb(83, 245, 151); font-size: 70px;"></h3>
+                    <p>Course Structure</p>
+                    <p>The course structure is so good so that students can interact with it easily.</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-cloud" style="color: rgb(250, 252, 250); font-size: 70px;"></h3>
+                    <p>Cloud Computing</p>
+                <p>We provide knowledge about different cloud services such as Azure and GCP</p>
+                  </div>
+                </div>
+   
+                <div class="column">
+                  <div class="card">
+                    <h3><icon class="fa fa-certificate" style="color: rgb(223, 181, 66); font-size: 70px;"></h3>
+                        <p>Certificate</p>
+                    <p>The students will be provided certificates which will help them in their career</p>
+                  </div>
+                </div>
+        </div><br></div><br>
+<!--Footer-->
+<div class="container-fluid" style="background-image: linear-gradient(260deg, #2376ae 0%, #660477 100%); border-bottom: 1px solid #222; text-align: center;">
+    <div class="row">
+      <div class="col-md-4">
+        <h3 style="color: blanchedalmond; font-size: 40px;">About</h3>
+        <a href="events.html" style="font-size: 20px; color: rgb(253, 252, 252);">Events</a><br><br>
+        <a href="#h-intern" style="font-size: 20px; color: rgb(252, 246, 246);">Interns</a><br><br>
+        <a href="#con3" style="font-size: 20px; color: rgb(252, 246, 246);">courses</a><br><br>
+        <a href="career.html" style="font-size: 20px; color: rgb(252, 247, 247);">career</a>
+      </div>
+      <div class="col-md-4" ><h3 style="color: blanchedalmond; font-size: 40px;">Contact</h3>
+        <i class="fa fa-envelope-o" style="font-size: 20px; color: blanchedalmond;"> kanishkaitpvtltd@gmail.com</i><br><br>
+        <i class="fa fa-mobile" style="font-size: 20px; color: blanchedalmond;">  +91-9300316290, 93000666805</i><br><br>
+        <i class="fa fa-wpforms" style="font-size: 20px; color: blanchedalmond;">    209-210, Garima Arcade near Regal Hotel Shinde Ki Chhawni, Gwalior</i><br><br>
+      </div>
+      <div class="col-md-4">
+        <h3 style="color: blanchedalmond; font-size: 40px;">Follow us on</h3>
+        <div class="image-sec" style=" font-size: 30px; text-align: center; letter-spacing: 4px; text-decoration: none;">
+            <a href="https://www.linkedin.com/company/kanishka-it/about/"><i class="fa fa-linkedin-square" style="color: white;"></i></a>
+            <a href="#"><i class="fa fa-facebook" style="color: white;"></i></a>
+            <a href="https://github.com/geeta-gwalior"><i class="fa fa-github-square" style="color: rgb(20, 13, 13);"></i></a>
+            <a href="https://www.quora.com/q/nhusotwloiqavwqk?sort=top"><i class="fa fa-quora" style="color: rgb(102, 2, 2);"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright" style="color: white;">&copy; Copyright 2021 Kanishka It PVT LTD.
+    </div>
+    <br>
+</div>
+
+</body>
+</html>
