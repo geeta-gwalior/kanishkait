@@ -949,6 +949,8 @@ app.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/home');
 })
-app.listen(1102,function(req,res){
-    console.log("hello");
-});
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
+app.listen(port, host, function() {
+    console.log("Server started.......");
+  });
