@@ -19,7 +19,7 @@ app.get("/login",function(req,res){
     res.sendFile(path.join(__dirname,"pages","loginn.html"))
 });
 app.get("/",function(req,res){
-    res.sendFile(path.join(__dirname,"pages","signup.html"))
+    res.sendFile(path.join(__dirname,"pages","index.html"))
 })
 app.get("/home",function(req,res){
     res.sendFile(path.join(__dirname,"pages","index.html"))
